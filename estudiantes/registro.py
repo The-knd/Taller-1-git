@@ -31,5 +31,5 @@ if __name__ == "__main__":
         est_valid = depurar_datos(file)
         mostrar_estudiantes(est_valid)
         print()
-        calcular_promedio(est_valid)
+        print("Promedio:",calcular_promedio(est_valid))
 
